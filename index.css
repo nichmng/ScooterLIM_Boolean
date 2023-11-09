@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+#container {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    width: 60%;
+    border-radius:10px;
+    padding-bottom: 6%;
+}
+
+header {
+    text-align: center;
+    padding-top: 8%;
+}
+
+header img {
+    width: 25%;
+}
+
+header h1 {
+    color: #00dd00;
+    margin: 0;
+}
+
+nav, section {
+    width: 80%;
+    margin: auto;
+}
+
+nav {
+    background-color: #00dd00 ;
+    text-align:  center;
+    padding: 1%;
+    margin-top: 1%;
+}
+
+section {
+    margin-top: 3%;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.charge_bar {
+    height: 20px;
+    border-radius: 4px;
+}
+
+.scooter1 .charge_bar {
+    background-color: #f5b453 ;
+    width: 40%;
+}
+
+.scooter2 .charge_bar {
+    background-color: #1ec31e ;
+    width: 60%;
+}
+
+.scooter3 .charge_bar {
+    background-color: #be4141 ;
+    width: 15%;
+}
+
+.address, .charge_stat{
+    font-size: small;
+    padding-top: 0.5%;
+}
+
